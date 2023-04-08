@@ -1,0 +1,93 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), 80%, rgb(255, 153, 0));
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    font-family: monospace;
+    color: rgb(90, 85, 82);
+    width: 40%;
+}
+
+
+
+img {
+    width: 10%;
+    padding-right: 5%;
+}
+
+#concon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+    padding-top: 50px;
+
+}
+
+#start {
+    align-self: center;
+    border-width: 1px;
+    border-color: rgb(255, 133, 0);
+    border-radius: 2px;
+    margin-top: 5px;
+    width: 100%;
+    height: 33px;
+    background-color: rgb(255, 180, 0);
+    color: rgb(54, 51, 33);
+    font-size: large;
+    font-family: monospace;
+}
+
+#start:hover {
+    background-color: #998258;
+    border-width: 1px;
+    border-color: #5f5034;
+}
+
+#password-length-input {
+    width: 27px;   
+}
+
+#password-length-input:focus-visible {
+    border-width: 1.5px;
+    border-radius: 2px;
+    border-color: #348120;
+    border-style: solid;
+    outline: none;
+}
+
+#password-length-input:hover {
+    border-width: 1.5px;
+    border-radius: 2px;
+    border-color:#998258;
+    border-style: solid;
+}
+
+#result-frame {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#btn-copy-password {
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 30%;
+    height: 38px;
+}
+
+#place-for-result {
+    margin-top: 5px;
+    width: 70%;
+    height: 32px;
+    text-align: center;
+    font-size: medium;
+    color: rgb(90, 85, 82);
+}
+
+input[type="radio"], [type='checkbox'] {
+    accent-color: #348120;
+}
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="concon">
+        <img src="icons/key.png">
+        <div id="container">
+            <h2>Password generator</h2>
+            <div id="checkbox">
+                <label><input type="checkbox" id="ch-box-special-symbols">Special symbols</label>
+                <label><input type="checkbox" id="ch-box-upper-letters">Uppercase letters</label>
+            </div>
+            <h5>Select password length or enter manually</h5>
+            <span>Number of character: </span>
+            <input type="radio" id="Length8symb" value="8" name="radio">8
+            <input type="radio" id="Length12symb" value="12" name="radio">12
+            <input type="radio" id="Length20symb" value="20" name="radio">20
+            <input id="password-length-input">
+            <br><button id="start">Generate password</button>
+            <div id="result-frame">
+                <input type="text" id="place-for-result">
+                <button id="btn-copy-password"><img src="icons/copy.png" style="width: 15%;"></button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
