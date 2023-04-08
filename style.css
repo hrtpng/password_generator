@@ -7,7 +7,7 @@ body {
 #container {
     font-family: monospace;
     color: rgb(90, 85, 82);
-    width: 40%;
+    width: 328px;
 }
 
 
@@ -23,7 +23,7 @@ img {
     align-items: center;
     padding-right: 80px;
     padding-top: 50px;
-
+    min-width: 815px;
 }
 
 #start {
@@ -52,7 +52,7 @@ img {
 }
 
 #password-length-input:focus-visible {
-    border-width: 1.5px;
+    border-width: 1px;
     border-radius: 2px;
     border-color: #348120;
     border-style: solid;
@@ -60,7 +60,7 @@ img {
 }
 
 #password-length-input:hover {
-    border-width: 1.5px;
+    border-width: 1px;
     border-radius: 2px;
     border-color:#998258;
     border-style: solid;
