@@ -47,7 +47,8 @@ img {
 }
 
 #password-length-input {
-    width: 27px;   
+    width: 27px;
+    text-align: center;    
 }
 
 #password-length-input:focus-visible {
